@@ -151,6 +151,11 @@ header{
     color: #010101;
 }
 
+#mail :hover{
+    border-bottom: solid 5px #010101;
+    transition: 0.5s;
+}
+
 .context{
     margin: 0 auto;
     position: relative;
