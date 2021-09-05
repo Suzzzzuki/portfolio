@@ -146,6 +146,11 @@ header{
     color: #010101;
 }
 
+.name #mail a{
+    text-decoration: none;
+    color: #010101;
+}
+
 #mail :hover{
     border-bottom: solid 2px #010101;
     transition: 0.2s;
