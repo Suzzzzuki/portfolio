@@ -35,24 +35,50 @@ header{
     letter-spacing: 20px;
 }
 
-.works{
-    padding: 10px 0px 0px;
+/*About Info*/
+
+.Eat{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-width: 100%;
+    padding: 100px 0 210px;
+    position: relative;
+    z-index: 1;
+    background-color: #CBCBCB;
+    color: #000;
+}
+.Eat #title01{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    letter-spacing: 10px;
+    padding: 10px 0 30px;
     text-align: center;
 }
-
-.works .title{
-    font-size: 30px;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-weight: 700;
-    letter-spacing: 10px;
+.name{
+    padding-top: 20px;
 }
-
-.works .message{
-    font-size: 20px;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-weight: 700;
-    letter-spacing: 10px;
-    margin: 350px 0;
+.name ul{
+    display: flex;
+    justify-content: center;
+}
+.name li{
+    list-style: none;
+}
+.context{
+    padding-top: 30px;
+    margin: 0 auto;
+    position: relative;
+}
+.context p{
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-align: left;
+    line-height: 2.2;
+    padding: 5px 100px 10px 100px;
+   
 }
 
 .copyright{
@@ -65,4 +91,15 @@ header{
     letter-spacing: 3px;
     text-align: center;
     padding: 10px 0 0;
+}
+.works{
+    margin: 80px auto 0px;
+    position: relative;
+}
+
+.works p{
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 100px 0px 400px;
 }
