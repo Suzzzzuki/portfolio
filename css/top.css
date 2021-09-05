@@ -140,6 +140,7 @@ header{
 }
 
 .name #mail{
+    padding-top: 20px;
     font-size: 14px;
     font-family: sans-serif;
     text-decoration: none;
@@ -152,8 +153,9 @@ header{
 }
 
 #mail :hover{
-    border-bottom: solid 5px #010101;
-    transition: 0.5s;
+    padding-bottom: 2px;
+    border-bottom: solid 1px #010101;
+    transition: 0.2s;
 }
 
 .context{
