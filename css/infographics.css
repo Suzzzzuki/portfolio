@@ -1,0 +1,68 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration:none; 
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-width: 100%;
+    z-index: 100;
+    margin: 0;
+}
+
+#pagetitle{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 0 30px;
+}
+
+#pagetitle .PT{
+    font-size: 50px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 700;
+    letter-spacing: 20px;
+}
+
+.works{
+    padding: 10px 0px 0px;
+    text-align: center;
+}
+
+.works .title{
+    font-size: 30px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+.works .message{
+    font-size: 20px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 700;
+    letter-spacing: 10px;
+    margin: 350px 0;
+}
+
+.copyright{
+    margin: 80px auto 0px;
+    position: relative;
+}
+
+.copyright p{
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 10px 0 0;
+}

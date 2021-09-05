@@ -1,0 +1,127 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-color: rgb(252, 248, 243) !important;
+}
+
+a {
+    text-decoration:none; 
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-width: 100%;
+    z-index: 100;
+    margin: 0;
+}
+
+#pagetitle{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 0 30px;
+}
+
+#pagetitle .PT{
+    font-size: 50px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 700;
+    letter-spacing: 20px;
+}
+
+
+/*About Game*/
+
+.kuchikiss{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-width: 100%;
+    padding: 100px 0 210px;
+    position: relative;
+    z-index: 1;
+    background-color: #ffada6;
+    color: #000;
+}
+
+.potato{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-width: 100%;
+    padding: 100px 0 210px;
+    position: relative;
+    z-index: 1;
+    background-color: #D9AF8B;
+    color: #000;
+}
+
+.kuchikiss #title01{
+    font-size: 25px;
+    font-family: "Nico Moji";
+    font-weight: 700;
+    letter-spacing: 10px;
+    padding: 10px 0 30px;
+    text-align: center;
+}
+
+.potato #title02{
+    font-size: 25px;
+    font-family: "Nico Moji";
+    font-weight: 700;
+    letter-spacing: 10px;
+    padding: 10px 0 30px;
+    text-align: center;
+}
+
+.Introduce{
+    margin: 10px auto;
+    padding: 30px 0;
+    position: relative;
+}
+
+.name{
+    margin: 0 auto 30px;
+    position: relative;
+}
+
+.name p{
+    text-align: right;
+    padding: 5px 30px 20px 0px;
+    
+}
+
+.context{
+    margin: 0 auto;
+    position: relative;
+}
+
+.context p{
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-align: left;
+    line-height: 2.2;
+    padding: 5px 0px 10px 30px;
+   
+}
+
+.copyright{
+    margin: 100px auto 0px;
+    position: relative;
+}
+
+.copyright p{
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 10px 0 0;
+}
