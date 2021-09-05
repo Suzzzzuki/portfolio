@@ -139,6 +139,10 @@ header{
     
 }
 
+.name #mail{
+    font-size: 14px;
+    
+}
 .context{
     margin: 0 auto;
     position: relative;
