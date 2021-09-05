@@ -142,11 +142,12 @@ header{
 .name #mail{
     font-size: 14px;
     font-family: sans-serif;
+    text-decoration: none;
     color: #010101;
 }
 
 #mail :hover{
-    border-bottom: solid 1px #010101;
+    border-bottom: solid 2px #010101;
     transition: 0.2s;
 }
 
