@@ -1,6 +1,8 @@
 body{
     height: 100%;
     margin: 0;
+    background-color: rgb(252, 248, 243);
+
 }
 
 a {
@@ -12,13 +14,16 @@ a:hover{
 }
 
 header{
+    position: sticky;
+    position: -webkit-sticky;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
     min-width: 100%;
-    z-index: 100;
+    z-index: 99;
     margin: 0;
+    background-color: rgb(252, 248, 243);
 }
 
 #pagetitle{

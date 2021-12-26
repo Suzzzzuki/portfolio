@@ -60,34 +60,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
-    
-    <!--hamberger-->
-
-    <script>
-        (function($) {
-            var $nav   = $('#navArea');
-            var $btn   = $('.toggle_btn');
-            var $mask  = $('#mask');
-            var $scroll = $('.scroll')
-            var open   = 'open'; // class
-            // menu open close
-            $btn.on( 'click', function() {
-                if ( ! $nav.hasClass( open ) ) {
-                $nav.addClass( open );
-                } else {
-                $nav.removeClass( open );
-                }
-            });
-            // mask close
-            $mask.on('click', function() {
-                $nav.removeClass( open );
-            });
-            $scroll.on('click', function() {
-                $nav.removeClass( open );
-            });
-        } )(jQuery);
-        
-    </script>
 
       <script>
             ScrollReveal().reveal('.title', { 
@@ -96,10 +68,6 @@
             });
             ScrollReveal().reveal('.message', { 
                 duration: 1800,
-                reset: true   
-            });
-            ScrollReveal().reveal('.PT', { 
-                duration: 2600,
                 reset: true   
             });
             ScrollReveal().reveal('.copyright', { 

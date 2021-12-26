@@ -25,7 +25,6 @@ header{
 .topVid{
     position: relative;
     width: 100%;
-    height: 100%;
     height: 100vh;
     overflow: hidden;
 }
@@ -150,6 +149,10 @@ header{
 .name #mail a{
     text-decoration: none;
     color: #010101;
+}
+
+.name #photo{
+    margin-top: 30px;
 }
 
 #mail :hover{
