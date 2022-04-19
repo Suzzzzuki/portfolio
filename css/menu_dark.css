@@ -1,32 +1,48 @@
 a{
     text-decoration: none;
-    color: rgb(219, 219, 219);
+    color: #BE9E6A;
 }
 
-.menu ul{
+.inner ul{
 display: table;
 margin: 0 auto;
 padding: 0 ;
 width: 80%;
 text-align: center;
 }
-.menu li{
+.inner li{
 display: table-cell;
 min-width: 50px;
 }
-.menu a{
+.inner a{
 display: block;
 width: 100%;
 text-decoration: none !important;
-color: rgb(219, 219, 219);
+color: #BE9E6A;
 padding-bottom: 5px;
 }
-.menu li#current{
-border-bottom: 3px solid rgb(219, 219, 219);
-color: rgb(219, 219, 219);
+.global-item :hover{
+color: #BE9E6A;
+}
+.inner li#current{
+border-bottom: 3px solid #BE9E6A;
+color: #BE9E6A;
 }
 
-.menu li:hover{
-border-bottom: 3px solid rgb(117, 117, 117);
+.inner li:hover{
+border-bottom: 3px solid #815223;
 transition: 0.2s;
+}
+
+#global-nav.m_fixed {
+	left: 0;
+	position: fixed;
+	top: 0;
+}
+#global-nav {
+	background: #272523;
+	width: 100%;
+    z-index: 99;
+    padding: 15px 0 0 0;
+    opacity: 0.85;
 }

@@ -25,16 +25,18 @@
         </div>
 
         <!--menu-->
-        <div class="menu">
-            <ul>
-                <li><a href="./#top">Top</a></li>
-                <li><a href="clips.html">Clips</a></li>
-                <li><a href="games.html">Games</a></li>
-                <li><a href="infographics.html">Infographics</a></li>
-                <li><a href="3dcg.html">3DCG</a></li>
-                <li><a href="webs.html">Websites</a></li>
-                <li id="current">Apps</li>
-            </ul>
+        <div id="global-nav">
+            <div class="inner">
+                <ul class="global-list">
+                    <li class="global-item"><a href="./#top">Top</a></li>
+                    <li class="global-item"><a href="clips.html">Clips</a></li>
+                    <li class="global-item"><a href="games.html">Games</a></li>
+                    <li class="global-item"><a href="infographics.html">Infographics</a></li>
+                    <li class="global-item"><a href="3dcg.html">3DCG</a></li>
+                    <li class="global-item"><a href="webs.html">Websites</a></li>
+                    <li class="global-item" id="current">App</li>
+                </ul>
+            </div>
         </div>
         
     </header>
@@ -179,6 +181,21 @@
         duration: 2600,
         reset: true   
     });
+</script>
+
+<!--スティッキーヘッダー-->
+<script>
+    var navPos = $( '#global-nav' ).offset().top; // グローバルメニューの位置
+    var navHeight = $( '#global-nav' ).outerHeight(); // グローバルメニューの高さ
+    $( window ).on( 'scroll', function() {
+        if ( $( this ).scrollTop() > navPos ) {
+            $( 'body' ).css( 'padding-top', navHeight );
+            $( '#global-nav' ).addClass( 'm_fixed' );
+        } else {
+            $( 'body' ).css( 'padding-top', 0 );
+            $( '#global-nav' ).removeClass( 'm_fixed' );
+        }
+});
 </script>
 
 </body>

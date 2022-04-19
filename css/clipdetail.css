@@ -1,0 +1,137 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-color: #272523 !important;
+}
+
+a {
+}
+
+a:hover{
+    text-decoration: none !important;
+    color: rgb(219, 219, 219);
+}
+
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-width: 100%;
+    z-index: 99;
+    margin: 0;
+    background-color: #272523;
+}
+
+/*About Works*/
+.works{
+    padding: 10px 0px 0px;
+    text-align: center;
+}
+
+.works .title{
+    font-size: 30px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 700;
+    letter-spacing: 10px;
+    
+}
+
+.workcontext{
+    margin: 20px 0 0 0;
+    padding: 0px;
+}
+
+.works .txttitle p{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: 3px;
+    z-index: 4;
+    color: rgb(219, 219, 219);
+    padding: 100px 0 20px;
+    
+}
+.vidArea{
+    width: 60%;
+    margin: 0 auto;
+    min-width: 384px;
+    min-height: 216px;
+}
+.move-wrap {
+    position: relative;
+    padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+    height: 0;
+    overflow: hidden;
+}
+
+.move-wrap iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.works .frameshot{
+    padding-top: 30px;
+}
+
+.works .txtArea .txtcontext{
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: rgb(219, 219, 219);
+    text-align: left;
+}
+.works .txtArea .txttitle{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: rgb(219, 219, 219);
+    text-align: center;
+    padding-top: 30px;
+}
+.works .txtArea .txtsubtitle{
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: rgb(219, 219, 219);
+    text-align: right;
+}
+.works .txtArea .bgmLink{
+    color: rgb(219, 219, 219);
+    border-bottom: 2px dotted rgb(219, 219, 219);
+}
+
+.works .txtArea .bgmLink:hover{
+    color: rgb(102, 212, 255);
+    border-bottom: 2px dotted rgb(102, 212, 255);
+}
+
+.context p{
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 2.2;
+    padding: 5px 0px 10px 30px;
+   
+}
+
+.copyright{
+    margin: 80px auto 0px;
+    position: relative;
+}
+
+.copyright p{
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 10px 0 0;
+}
+
+.img-fluid{
+    padding-top: 20px;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #815223 !important;
+}
