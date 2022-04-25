@@ -4,9 +4,6 @@ body{
     background-color: #272523 !important;
 }
 
-a {
-}
-
 a:hover{
     text-decoration: none !important;
     color: #BE9E6A;
@@ -94,6 +91,30 @@ header{
 .works .txtArea .bgmLink:hover{
     color: #815223;
     border-bottom: 2px dotted #815223;
+    transition-duration: 0.3s;
+}
+
+.works .linkArea{
+    padding-top: 30px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-align: left;
+    font-size: 15px;
+    transition-duration: 0.3s;
+}
+
+.works .linkArea .Link{
+    color: #f38c47;
+    border-bottom: 1px dotted #815223;
+    
+}
+
+.works .linkArea :hover{
+    padding: 5px 0px;
+    border-bottom: 1px solid #815223;
+    border-top: 1px solid #815223;
+    letter-spacing: 5px;
     transition-duration: 0.3s;
 }
 
